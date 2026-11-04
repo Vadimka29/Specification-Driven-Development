@@ -178,6 +178,8 @@ The key words "MUST", "MUST NOT", "SHOULD" and "MAY" in this document are to be 
 
 10.2. Additional specifications, if any, MUST be placed under `/docs` and be linked from this document.
 
+10.2.1. [`docs/CORE.md`](CORE.md) — core application specification (Spring Boot web application written in Java and built with Maven).
+
 10.3. Implementation and test directories MAY be added and MUST follow the requirements in sections 6 and 7.
 
 ## 11. Acceptance Criteria for This Specification

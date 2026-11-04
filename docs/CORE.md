@@ -40,7 +40,7 @@ The key words "MUST", "MUST NOT", "SHOULD" and "MAY" in this document are to be 
 
 ## 3. Project Structure
 
-3.1. The Maven coordinates MUST be `groupId` `com.example`, `artifactId` `sdd-core`, `version` `0.0.1-SNAPSHOT`.
+3.1. The Maven coordinates MUST be `groupId` `com.sdd`, `artifactId` `sdd-core`, `version` `0.0.1-SNAPSHOT`.
 
 3.2. The base Java package MUST be `com.example.sdd`.
 
@@ -125,3 +125,5 @@ The key words "MUST", "MUST NOT", "SHOULD" and "MAY" in this document are to be 
 ## 10. Revision History
 
 10.1. Version 1.0 — initial specification.
+
+10.2. Version 1.1 — Maven `groupId` changed to `com.sdd`.

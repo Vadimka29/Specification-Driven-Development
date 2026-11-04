@@ -47,3 +47,15 @@ In Specification-Driven Development, the workflow follows these key principles:
 ## Getting Started
 
 This repository demonstrates Specification-Driven Development practices. Explore the specifications and implementation to see how formal specifications guide development decisions and ensure software quality.
+
+## Core Application
+
+The reference implementation is a Spring Boot web application (Java, Maven), specified in [`docs/CORE.md`](docs/CORE.md).
+
+```bash
+./mvnw test                 # run tests
+./mvnw clean verify         # build and verify
+./mvnw spring-boot:run      # run on http://localhost:8080 (override with SERVER_PORT)
+```
+
+Endpoints: `GET /`, `GET /api/greeting?name=Ada`, `GET /actuator/health`.
